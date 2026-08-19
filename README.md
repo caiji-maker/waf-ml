@@ -211,5 +211,3 @@ waf-ml/
 ├── features/                # 特征 Parquet
 └── model/                   # 模型和评估产出
 ```
-
-> AI生成
