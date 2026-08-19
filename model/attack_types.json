@@ -1,0 +1,22 @@
+{
+  "classes": [
+    "automated_tool",
+    "normal",
+    "path_padding",
+    "path_traversal",
+    "sensitive_scan",
+    "seo_spam_slash",
+    "sql_injection",
+    "vuln_scan"
+  ],
+  "mapping": {
+    "automated_tool": 0,
+    "normal": 1,
+    "path_padding": 2,
+    "path_traversal": 3,
+    "sensitive_scan": 4,
+    "seo_spam_slash": 5,
+    "sql_injection": 6,
+    "vuln_scan": 7
+  }
+}

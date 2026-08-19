@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 训练数据（大文件，可由 step1~3 重新生成）
+parsed/
+labeled/
+features/
+
+# 日志
+*.log
+step*_out.log
+step*_err.log
+train_out.log
+train_err.log
+
+# 中间产物 CSV（可由脚本重新生成）
+model/false_negatives_*.csv
+model/false_positives_*.csv
+model/feature_distribution_*.csv
+model/fnr_by_attack_type.csv
+model/replay_offline_*.csv
+model/replay_results.csv
+model/threshold_analysis*.csv
+model/rule_suggestions.json
+
+# 旧版模型（不可用，归档参考）
+model/lightgbm_model_v4.pkl
+model/xgboost_model_v3.pkl
+model/lightgbm_feature_importance_v4.csv
+model/xgboost_feature_importance_v3.csv
+
+# 旧版特征列和报告（非当前使用）
+model/feature_columns.json
+model/feature_columns_no_seospam.json
+model/feature_columns_v4.json
+model/training_report.json
+model/training_report_no_seospam.json
+model/training_report_v4.json
+
+# 临时文件
+*.tmp
